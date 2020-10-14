@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-class InterruptibleCharSequence implements CharSequence {
+public class InterruptibleCharSequence implements CharSequence {
 	   CharSequence inner;
 
 	   public InterruptibleCharSequence(CharSequence inner) {

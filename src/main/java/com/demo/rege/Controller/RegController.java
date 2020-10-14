@@ -1,6 +1,7 @@
 package com.demo.rege.Controller;
 
 import com.demo.rege.Model.Response;
+import com.demo.rege.controller.InterruptibleCharSequence;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
