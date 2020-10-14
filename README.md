@@ -6,7 +6,7 @@ Build a simple Java Spring REST api for regex match, which will have one api as 
       {"match": "regex", "error": false}
     * If regex not present in the textBody:
       {"match": "null", "error":false}
-    * If regex is bad regex and throw PatternSyntaxException:
+    * If regex syntax is invalid and throw PatternSyntaxException:
       {"match": "null", "error":true}
 
 # Clone project to your local directory
